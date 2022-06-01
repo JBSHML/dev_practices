@@ -170,3 +170,19 @@ Recommandation d'IDE: [VSCode](https://code.visualstudio.com/)
 
   Désormais, les commandes conda sont accessibles dans Powershell (et donc dans le terminal de VSCode)
 
+
+
+
+
+
+HYDRA
+STRUCTURE FICHIER
+AJOUT BLACK ISORT PYLINT
+AJOUT GITIGNORE (outputs, ...)
+
+
+POETRY ADD PRE-COMMIT
+https://www.youtube.com/watch?v=psjz6rwzMdk
+pre-commit install
+
+LANCER GIT DEPUIS L'ENVIRONNEMENT !
