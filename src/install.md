@@ -1,4 +1,4 @@
-# Installation de Python
+# 1-Installation de Python :snake:
 ## Anaconda
 <br>
   <p align="center">
@@ -19,4 +19,4 @@
 <br>
 <br>
 
-[Accueil](../table_of_contents.md)
+[Accueil](../README.md)

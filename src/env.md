@@ -1,7 +1,8 @@
-# 2-Environnement de développement reproductible: Conda & Poetry
+# 2-Environnement de développement reproductible: Conda & Poetry :fast_forward:
 ## a) Intégration de conda à Powershell et CMD (à faire une seule fois)
 \
   Afin de fluidifier les interactions avec Anaconda (éviter de passer par Anaconda Prompt), il est possible d'ajouter Anaconda Prompt a PowerShell /CMD (afin d'utiliser un seul outil d'invité de commande, notamment sur VSCode):
+<p style='color:green'> <b>Powershell</b></p>
 
   1. Lancer Anaconda Prompt
   2. Ajouter Anaconda Prompt a Powershell via la commande suivante:
@@ -9,16 +10,26 @@
   conda init powershell
   ```
   3. Fermer Anaconda Prompt
-  3. Lancer Powershell en mode qu'Administrateur :star:  et exécuter la commande:
+  4. Lancer Powershell en mode qu'Administrateur :star:  et exécuter la commande:
   ```powershell
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
   O
   ```
-  4. Toujours dans Powershell, désactiver 'conda activate' par défaut (pour ne être dans un environnement Conda de base par défaut à chaque lancement de Powershell):
+  5. Toujours dans Powershell, désactiver 'conda activate' par défaut (pour ne être dans un environnement Conda de base par défaut à chaque lancement de Powershell):
   ```powershell
   conda config --set auto_activate_base false
   ```
-  5. Fermer Powershell. Si tout s'est bien passé, en relançant Powershell, il n'y pas de commande 'conda activate' qui se lance par défaut dès le départ
+  6. Fermer Powershell. Si tout s'est bien passé, en relançant Powershell, il n'y pas de commande 'conda activate' qui se lance par défaut dès le départ
+
+<br>
+<p style='color:green'> <b>CMD</b></p>
+
+  1. Lancer Anaconda Prompt
+  2. Ajouter Anaconda Prompt a cmd via la commande suivante:
+  ```bash
+  conda init cmd.exe
+  ```
+  3. Fermer Anaconda Prompt. Si tout s'est bien passé, en relançant cmd.exe, on peut utiliser les commandes conda
 
 <br>
 <br>
@@ -78,4 +89,4 @@ Puis en vérifiant ensuite la version de Python de cet environnement, qui corres
   <br>
   <br>
 
-[Accueil](../table_of_contents.md)
+[Accueil](../README.md)

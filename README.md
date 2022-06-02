@@ -16,7 +16,7 @@ Ce projet à pour but de faciliter la mise en place d'un environnement de dével
 - Créer aisément des environnements de développement pour isoler les projets locauxs (et donc assurer leur indépendance)
 - Mettre en place des normes de développement, les plus simples à suivre automatisées au possible, afin d'assurer une qualité et une maintenabilité 
 - Permettre de facilité la contribution multiple sur un projet
-- Dans la mesure du possible, selon la problématique, conserver un squelette de projet
+- Dans la mesure du possible, selon la problématique, conserver un squelette de projet uniforme
 
 <br/>
 
@@ -24,15 +24,15 @@ Les différentes étapes à suivre:
  
 - [1-Installation de Python][]
 - [2-Environnement de développement reproductible: Conda & Poetry][]
-- [3-Initialisation et structure de projet Machine Learning: Git & Poetry][]
+- [3-Initialisation de projet: Git & Poetry][]
 - [4-Normes de développement: Git & Precommit][]
-- [5-Configuration de projet: Hydra][]
+- [5-Configuration et structure de projet: Hydra][]
 
 [1-Installation de Python]: ./src/install.md
 [2-Environnement de développement reproductible: Conda & Poetry]: ./src/env.md
-[3-Initialisation et structure de projet Machine Learning: Git & Poetry]: ./src/struct.md
+[3-Initialisation de projet: Git & Poetry]: ./src/struct.md
 [4-Normes de développement: Git & Precommit]: ./src/normes.md
-[5-Configuration de projet: Hydra]: ./src/conf.md
+[5-Configuration et structure de projet: Hydra]: ./src/conf.md
 
 <br/>
 
@@ -40,6 +40,6 @@ Les différentes étapes à suivre:
 
 :arrow_forward: Installer l'IDE [VSCode](https://code.visualstudio.com/) avec les extensions VSCode recommandées suivantes: 
   - Python (pour visualiser les environnements disponibles)
-  - Github Copilot (si autoriser dans l'entreprise car télémetrie, c'est le :fire:)
+  - Github Copilot (si autoriser dans l'entreprise car télémetrie, mais c'est le :fire:)
 
 :arrow_forward: Installer [Git](https://git-scm.com/)
