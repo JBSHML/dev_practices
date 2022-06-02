@@ -56,7 +56,7 @@ La première étape consiste à ajouter dans l'environnement conda du projet, vi
  - isort: formatter de code afin de trier les imports dans l'ordre des conventions builtin, puis via pip, puis module locaux, ... (paramètrable, voir la [documentation](https://github.com/PyCQA/isort))
  - pylint: Analyser de code python avec notation de qualité (paramètrable, voir la [documentation](https://pylint.pycqa.org/en/latest/))
 
-Les hooks s'ajoute via les même commandes et dans les mêmes contextes que l'exemple de Black présenté au dessus.\
+Les hooks s'ajoutent via les même commandes et dans les mêmes contextes que l'exemple de Black présenté au dessus.\
 Voici un exemple de fichier ```.pre-commit-config.yaml``` avec ces hooks:
 
 ```yaml
